@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  height: 100dvh;
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+}
+
+canvas {
+  overflow: hidden;
+}
